@@ -12,13 +12,13 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2225
+  m_CustomRenderQueue: 2000
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -68,7 +68,7 @@ Material:
     - _ExcludeFromTUAndAA: 0
     - _Global_Noise_Amplitude: 0.2
     - _Global_Noise_Scale: 40
-    - _Hue_Variation: 0.05
+    - _Hue_Variation: 0.311
     - _Lightness_Variation: 0.2
     - _MaterialID: 1
     - _MaterialTypeMask: 2
@@ -86,7 +86,7 @@ Material:
     - _RequireSplitLighting: 0
     - _Roundness: 0.25
     - _Row_Offset: 0.333
-    - _Saturation_Variation: 0.35
+    - _Saturation_Variation: 0.229
     - _Shape_Noise_Amplitude: 0.1
     - _Shape_Noise_Scale: 5
     - _SrcBlend: 1
