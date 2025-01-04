@@ -653,6 +653,53 @@ MonoBehaviour:
   balance:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &-6784981490523804038
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 1
+  skipIterations:
+    m_OverrideState: 0
+    m_Value: 1
+  threshold:
+    m_OverrideState: 1
+    m_Value: 0.9
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  scatter:
+    m_OverrideState: 0
+    m_Value: 0.7
+  clamp:
+    m_OverrideState: 0
+    m_Value: 65472
+  tint:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  highQualityFiltering:
+    m_OverrideState: 0
+    m_Value: 0
+  downscale:
+    m_OverrideState: 0
+    m_Value: 0
+  maxIterations:
+    m_OverrideState: 0
+    m_Value: 6
+  dirtTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  dirtIntensity:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &-5529202297457086624
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1250,48 +1297,7 @@ MonoBehaviour:
   m_Name: HDRPSettingsVolumeProfile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 7686318427622180703}
-  - {fileID: -1016694868962581565}
-  - {fileID: 7502528774814404555}
-  - {fileID: 7542669330009093999}
-  - {fileID: 1501199423866068322}
-  - {fileID: 5315503232242033309}
-  - {fileID: 1932259527246508038}
-  - {fileID: 448115243408767295}
-  - {fileID: -7089757308646879465}
-  - {fileID: -8500501345142028434}
-  - {fileID: 2097231660816403494}
-  - {fileID: -2801868726895149923}
-  - {fileID: 895716943930512495}
-  - {fileID: -9000961485262358368}
-  - {fileID: -2420006893130668958}
-  - {fileID: -6916134595362806128}
-  - {fileID: -326920321648152910}
-  - {fileID: -118300319845332362}
-  - {fileID: 1088850432874852431}
-  - {fileID: 8029633479433194533}
-  - {fileID: -5529202297457086624}
-  - {fileID: -8075661314049562144}
-  - {fileID: 4237192281832522128}
-  - {fileID: -3881640127774831534}
-  - {fileID: 3261135875948907434}
-  - {fileID: -5363951714121481550}
-  - {fileID: 3549756748049372594}
-  - {fileID: -3873782145181506255}
-  - {fileID: 6700995707417131468}
-  - {fileID: -3298157640589677875}
-  - {fileID: 8494203306984172070}
-  - {fileID: -2061123148271162113}
-  - {fileID: 695116710428674785}
-  - {fileID: -3686354990370598374}
-  - {fileID: -7632872456117649008}
-  - {fileID: -7810235543153543574}
-  - {fileID: 4866779335512276920}
-  - {fileID: -7913480216815338932}
-  - {fileID: 8688873920599278010}
-  - {fileID: -7046199663027667785}
-  - {fileID: -6949326642648939429}
-  - {fileID: 3345194338928871737}
+  - {fileID: -6784981490523804038}
 --- !u!114 &448115243408767295
 MonoBehaviour:
   m_ObjectHideFlags: 3
